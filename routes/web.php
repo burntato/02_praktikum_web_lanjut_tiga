@@ -16,3 +16,11 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::prefix('product')->group(function() {
+    Route::view('/', 'product');
+    Route::view('handphone', 'handphone');
+    Route::view('code', 'code');
+    Route::view('tangan', 'tangan');
+    Route::view('laut', 'laut');
+});
