@@ -28,3 +28,12 @@ Route::prefix('product')->group(function() {
 Route::get('/news/{id?}', function($id = null) {
     return view('news' . $id);
 });
+
+Route::prefix('program')->group(function() {
+    Route::view('/', 'program');
+    Route::view('java', 'java');
+    Route::view('c', 'c');
+    Route::view('py', 'py');
+});
+
+Route::view('/about', 'about');
