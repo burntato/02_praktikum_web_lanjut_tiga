@@ -20,19 +20,17 @@
         <nav class="navbar navbar-light bg-light static-top">
             <div class="container">
                 <a href="/" class="navbar-brand">Home</a>
-                <a class="navbar-brand" href="handphone">Handphone</a>
-                <a class="navbar-brand" href="code">Code</a>
-                <a class="navbar-brand" href="tangan">Tangan</a>
+                <a class="navbar-brand" href="2">News 2</a>
             </div>
         </nav>
         <!-- Masthead-->
-        <header class="masthead" style="background-image: url({{asset('images/welcome/bg-masthead.jpg')}})">
+        <header class="masthead">
             <div class="container position-relative">
                 <div class="row justify-content-center">
                     <div class="col-xl-6" >
                         <div class="text-center text-white">
                             <!-- Page heading-->
-                            <h1>Ocean</h1>
+                            <h1>Ini adalah news 1</h1>
                             <!-- Signup form-->
                             <!-- * * * * * * * * * * * * * * *-->
                             <!-- * * SB Forms Contact Form * *-->

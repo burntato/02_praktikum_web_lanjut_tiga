@@ -24,3 +24,7 @@ Route::prefix('product')->group(function() {
     Route::view('tangan', 'tangan');
     Route::view('laut', 'laut');
 });
+
+Route::get('/news/{id?}', function($id = null) {
+    return view('news' . $id);
+});

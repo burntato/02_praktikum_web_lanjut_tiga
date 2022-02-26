@@ -21,7 +21,7 @@
             <div class="container">
                 <a href="/" class="navbar-brand">Home</a>
                 <a class="navbar-brand" href="/product">Products</a>
-                <a class="navbar-brand" href="#!">News</a>
+                <a class="navbar-brand" href="/news/1">News</a>
                 <a class="navbar-brand" href="#!">Program</a>
                 <a class="navbar-brand" href="#!">About us</a>
                 <a class="navbar-brand" href="#!">Contact Us</a>
